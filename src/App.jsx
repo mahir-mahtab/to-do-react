@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Input from './component/input'
 import Btn from './component/btn'
+import Input from './component/input'
+
 
 function App() {
   const [tasklist, setTasklist]= useState([]);
